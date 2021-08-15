@@ -1,0 +1,33 @@
+progress {
+  width: 100%;
+  height: 2rem;
+  border-radius: 0;
+  margin: 1rem 0;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: steelblue;
+}
+
+button {
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.25rem 0;
+}
+
+#fetch-button {
+  background-color: cornflowerblue;
+}
+
+#abort-button {
+  background-color: coral;
+}
+
+.container {
+  max-width: 35rem;
+  margin: auto;
+}
